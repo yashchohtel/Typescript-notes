@@ -35,7 +35,7 @@ In TypeScript, compilation checks types and converts TS into plain JavaScript.
 Runtime = when your program is actually running in the browser or Node.js.
 Static typing works at compile time, not runtime.
 
------------------- 
+------------------
 
 3. What is compiler
 
@@ -68,3 +68,7 @@ Then JavaScript → Interpreter (browser’s JS engine) → Runs program
 =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 
 */
+var userName = "yash";
+console.log(userName);
+userName = "yash chohtel";
+console.log(userName);
