@@ -69,11 +69,6 @@ Then JavaScript → Interpreter (browser’s JS engine) → Runs program
 
 */
 
-var userName: string = "yash";
-console.log(userName);
-
-userName = "yash chohtel";
-console.log(userName);
 
 
 
