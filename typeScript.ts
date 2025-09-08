@@ -1,9 +1,10 @@
-
 /*
+
+[01]. WHAT IS TYPESCRIPT [INTRODUCTION]
 
 =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 
-[1]. WHAT IS TYPESCRIPT :-
+[01]. WHAT IS TYPESCRIPT [INTRODUCTION] :-
 
 TypeScript is a programming language developed by Microsoft.
 
@@ -69,8 +70,6 @@ Then JavaScript → Interpreter (browser’s JS engine) → Runs program
 =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 
 */
-
-
 
 
 
