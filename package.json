@@ -1,4 +1,6 @@
 {
+  "allowJs": true,
+
   "devDependencies": {
     "typescript": "^5.9.2"
   }
