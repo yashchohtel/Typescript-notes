@@ -1,6 +1,7 @@
+"use strict";
 /*
 
-✅ null and undefined in TypeScript 
+✅ null and undefined in TypeScript
 
 Both null and undefined represent absence of a value, but they are used slightly differently. TypeScript, unlike JavaScript, gives you control over how strict or loose you want to treat them using configuration settings.
 

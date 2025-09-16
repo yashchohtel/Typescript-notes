@@ -1,3 +1,4 @@
+"use strict";
 /*
 
 String Data Type in TypeScript :-

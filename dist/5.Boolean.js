@@ -1,3 +1,4 @@
+"use strict";
 /*
 
 Boolean Data Type in TypeScript :- The boolean data type is used to represent logical values. It can only have two possible values: true or false. Boolean values are typically used in conditions, loops, and comparisons to control the flow of the program.
