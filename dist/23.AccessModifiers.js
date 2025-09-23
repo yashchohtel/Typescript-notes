@@ -70,33 +70,6 @@ console.log(p.getAge()); // ✅ Works
 // console.log(p.age);   // ❌ Error: age is private
 
 
-This ensures that no external code can change age directly.
-
-------------------
-
-III. protected
-
-Can be accessed inside the class and in subclasses.
-Not accessible outside the class hierarchy.
-
-example:
-
-class Person {
-  protected age: number;
-
-  constructor(age: number) {
-    this.age = age;
-  }
-}
-
-class Employee extends Person {
-  showAge(): void {
-    console.log(`Employee age is ${this.age}`); // ✅ Protected works in subclass
-  }
-}
-
-const emp = new Employee(30);
-emp.showAge(); // ✅ Works
-// console.log(emp.age); // ❌ Error: age is protected
+This ensures that no external code can change age directly.-
 
 */ 
