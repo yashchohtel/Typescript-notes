@@ -6,14 +6,23 @@ Access modifiers control visibility of class members (properties and methods).
 They determine where you can access a property or method:
 
 Inside the class only
-
 Inside class and subclasses
-
 Anywhere
 
 ----------------------------------------------
 
-2. public
+✅ 2. TypeScript has three main access modifiers:
+__________________________________________________________
+| Modifier   | Inside Class | In Subclass | Outside Class 
+|------------|--------------|-------------|---------------
+| public     | ✅ Yes       | ✅ Yes      | ✅ Yes       
+| private    | ✅ Yes       | ❌ No       | ❌ No        
+| protected  | ✅ Yes       | ✅ Yes      | ❌ No        
+|____________|______________|______________|_______________
+
+------------------
+
+I. public
 
 Default access modifier if you don’t specify one.
 
@@ -35,12 +44,12 @@ const p = new Person("Alice");
 console.log(p.name); // ✅ Works
 p.greet();           // ✅ Works
 
-🔹 3. private
+------------------
+
+II. private
 
 Can only be accessed inside the class.
-
 Not accessible outside or in subclasses.
-
 Useful for hiding internal implementation.
 
 class Person {
@@ -60,6 +69,6 @@ console.log(p.getAge()); // ✅ Works
 // console.log(p.age);   // ❌ Error: age is private
 
 
-This ensures that no external code can change age directly.
+This ensures that no external code can change age directly.-
 
 */ 

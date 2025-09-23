@@ -51,7 +51,26 @@ name: string; → TypeScript knows name must be a string.
 age: number; → TypeScript ensures age is a number.
 greet(): void → TypeScript knows this method returns nothing.
 
+----------------------------------------------
 
+✅ 4. Shorthand for properties
+
+You can declare properties directly in the constructor:
+
+class Person {
+  constructor(name: string, age: number) {}
+
+  greet(): void {
+    console.log(`Hello, my name is ${this.name}`);
+  }
+}
+
+const person1 = new Person("Alice", 25);
+console.log(person1.name); // OK
+
+This avoids writing this.name = name manually.
+
+----------------------------------------------
 
 */ 
 
