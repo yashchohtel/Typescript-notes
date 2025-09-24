@@ -51,19 +51,3 @@ console.log(User.getUserCount()); // 2
 The count property tracks how many users exist, but it’s shared across all instances because it’s static.
 
 */
-class User {
-    name;
-    static count = 0; // static property
-    constructor(name) {
-        this.name = name;
-        User.count++; // increment when new user is created
-    }
-    // static method
-    static getUserCount() {
-        return User.count;
-    }
-}
-const u1 = new User("Alice");
-const u2 = new User("Bob");
-const u3 = new User("jone");
-console.log(User.getUserCount()); // 3

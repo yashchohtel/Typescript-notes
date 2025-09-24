@@ -51,21 +51,3 @@ The count property tracks how many users exist, but it’s shared across all ins
 
 */ 
 
-class User {
-  private static count: number = 0; // static property
-
-  constructor(public name: string) {
-    User.count++; // increment when new user is created
-  }
-
-  // static method
-  static getUserCount(): number {
-    return User.count;
-  }
-}
-
-const u1 = new User("Alice");
-const u2 = new User("Bob");
-const u3 = new User("jone");
-
-console.log(User.getUserCount()); // 3
