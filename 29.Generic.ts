@@ -85,27 +85,3 @@ console.log(stringStack.pop()); // "B"
 
 */
 
-class Stack<T> {
-
-    private items: T[] = [];
-
-    push(item: T): void {
-        this.items.push(item);
-        console.log(this.items);
-    }
-
-    pop(): T | undefined {
-        console.log(this.items);
-        return this.items.pop();
-    }
-}
-
-const numberStack = new Stack<number>();
-numberStack.push(10);
-numberStack.push(20);
-console.log(numberStack.pop()); // 20
-
-const stringStack = new Stack<string>();
-stringStack.push("A");
-stringStack.push("B");
-console.log(stringStack.pop()); // "B"

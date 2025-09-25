@@ -85,22 +85,3 @@ stringStack.push("B");
 console.log(stringStack.pop()); // "B"
 
 */
-class Stack {
-    items = [];
-    push(item) {
-        this.items.push(item);
-        console.log(this.items);
-    }
-    pop() {
-        console.log(this.items);
-        return this.items.pop();
-    }
-}
-const numberStack = new Stack();
-numberStack.push(10);
-numberStack.push(20);
-console.log(numberStack.pop()); // 20
-const stringStack = new Stack();
-stringStack.push("A");
-stringStack.push("B");
-console.log(stringStack.pop()); // "B"
