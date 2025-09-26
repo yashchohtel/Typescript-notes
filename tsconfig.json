@@ -4,6 +4,7 @@
     "module": "none",
     "outDir": "./dist",
     "lib": ["dom", "es2024"],
-    "strict": true
+    "strict": true,
+    "experimentalDecorators": true
   }
 }
