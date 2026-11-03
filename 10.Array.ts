@@ -1,12 +1,4 @@
 
-
-
-
-
-
-
-/*
-
 ✅ 1. Array – The Basic Concept
 
 An array is a collection of items, just like in JavaScript. But in TypeScript, you tell what type of items the array holds, so you get better error checking.
